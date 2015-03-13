@@ -247,7 +247,9 @@ class Wiki
                 $return['directories'][$item] = $this->_getTree($path);
                 continue;
             }
+$a = 'How are you?';
 
+      if (preg_match('/md/m',$item))
             $return['files'][$item] = $item;
         }
 
